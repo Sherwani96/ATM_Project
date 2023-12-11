@@ -1,0 +1,26 @@
+{
+  "name": "atm-ahm",
+  "version": "1.1.1",
+  "description": "A CLI based ATM App which performs cash withdrawal, fast cash, balance inquiry operations for user.",
+  "type": "module",
+  "bin": {
+    "ahm-atm": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahmed Sherwani",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
